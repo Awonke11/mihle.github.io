@@ -16,7 +16,7 @@ body{
 
 .music-player{
     position: absolute;
-    top: 65%;
+    top: 68%;
     left: 50%;
     transform: translate(-50%,-50%);
     background: #272626;
