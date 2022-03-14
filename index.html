@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&display=swap" rel="stylesheet">
     <title>Happy Birthday</title>
+    <script src="https://unpkg.com/wavesurfer.js"></script>
 </head>
 <body>
-    <h1>Happy Birthday Mihles</h1>
+    <header>
+        <h1 class="main-heading">Happy Birthday</h1>
+        <p>Today is the day that the beautiful Mihles I know was born. A day to truely remember and I am very glad that day came to life because it did not just bring a new life but it also brought light into this world. Light that will shine in other peoples lives. I am talking about something I know. You have been nothing but great to me and I am seeing a difference in my life because of you. Thank you for everything you have done for me till today.</p>
+    </header>
+    <div class="container">
+        <div class="music-player">
+            <img src="./assests/heart.png" alt="music-icon" id="music-icon">
+            <div class="info">
+                <h1 class="head">Most incredible woman</h1>
+                <h3>- It is not the years that count but the life in those years</h3>
+                <div id="waveform"></div>
+                <div class="control-bar">
+                    <img src="./assests/play.png" alt="play" id="playBtn" title="Play / Pause">
+                    <img src="./assests/stop.png" alt="stop" id="stopBtn" title="Stop">
+                    <img src="./assests/volume.png" alt="volume" id="volumeBtn" title="Mute / Unmute">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/style.js"></script>
 </body>
 </html>

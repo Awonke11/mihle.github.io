@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    /* background: #f1dada; */
+    background-image: url("/assests/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.music-player{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #272626;
+    width: 70%;
+    height: 340px;
+    border-radius: 15px;
+    padding: 10px 18px;
+    box-shadow: 0px 17px 118px -37px rgba(110, 96, 96, 0.75);
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(37, 37, 37, 0.53) 100%, #ad6969 100%);
+    /* box-shadow: 1px 2px 5px 1px rgba(255, 249, 249, 0.1); */
+    backdrop-filter: blur(400px);
+    border-radius: 10px;
+}
+
+#music-icon{
+    height: 150px;
+    width: 150px;
+    /* border-radius: 50%; */
+}
+
+.info{
+    margin-left: 40px;
+    width: 100%;
+}
+
+.info h3{
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.control-bar{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.control-bar img{
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.head {
+    color: rgb(233, 66, 66);
+    /* text-align: center; */
+    /* font-family: 'Indie Flower', cursive; */
+}
+
+header {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading {
+    color: red;
+    font-weight: 900;
+    font-size: 3.5rem;
+    margin-top: 0;
+}
+
+p {
+    color: white;
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Kaushan Script', cursive;
+}
+
